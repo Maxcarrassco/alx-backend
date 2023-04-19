@@ -9,6 +9,8 @@ class BasicCache(BaseCaching):
 
     def put(self, key, value) -> None:
         """Put a value in the cache."""
+        if not key or not value:
+            return
         self.cache_data[key] = value
 
     def get(self, key) -> Union[Any, None]:
