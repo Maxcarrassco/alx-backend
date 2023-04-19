@@ -32,7 +32,11 @@ class LFUCache(BaseCaching):
     def get(self, key) -> Union[Any, None]:
         """Get a value from the cache."""
         val = self.cache_data.get(key)
-        if val and key in self.queue[0]:
+        if not val:
+            return val
+        if key in self.queue[0]:
             self.queue[0].remove(key)
-            self.queue[1].appendleft(key)
+        else:
+            self.queue[1].remove(key)
+        self.queue[1].appendleft(key)
         return val
