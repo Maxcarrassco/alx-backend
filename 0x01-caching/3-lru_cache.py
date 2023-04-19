@@ -6,7 +6,7 @@ from collections import deque
 
 
 class LRUCache(BaseCaching):
-    """This model implement a caching system using LIFO."""
+    """This model implement a caching system using LRU."""
 
     def __init__(self) -> None:
         """Initialize the model."""
