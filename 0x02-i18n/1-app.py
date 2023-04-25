@@ -4,16 +4,14 @@ from flask import Flask, render_template
 from flask_babel import Babel
 
 
-class Config:
+class Config(object):
     """Configuration for babel."""
     LANGUAGES = ['en', 'fr']
 
 
 app = Flask(__name__)
+app.config.from_object(Config)
 babel = Babel(app)
-app.config['BABEL_DEFAULT_LOCALE'] = Config.LANGUAGES[0]
-app.config['BABEL_DEFAULT_TIMEZONE'] = 'UTC'
-
 
 @app.route('/')
 def index():
