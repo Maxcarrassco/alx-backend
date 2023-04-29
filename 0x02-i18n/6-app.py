@@ -21,13 +21,13 @@ babel = Babel(app)
 @babel.localeselector
 def get_locale() -> str:
     """Return the best match of locale to use."""
+    locale = request.args.get('locale')
+    if locale:
+        return locale
     if g.user:
         locale = g.user.get('locale')
         if locale and locale in app.config['LANGUAGES']:
             return locale
-    locale = request.args.get('locale')
-    if locale:
-        return locale
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
