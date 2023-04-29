@@ -44,11 +44,13 @@ def get_user():
     user = users.get(user_id)
     return user
 
+
 @app.before_request
 def before_request():
     """Set user."""
     user = get_user()
     g.user = user
+
 
 @app.route('/')
 def index():
