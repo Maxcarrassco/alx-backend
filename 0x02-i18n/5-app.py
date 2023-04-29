@@ -3,6 +3,7 @@
 from flask import Flask, render_template, request, g
 from flask_babel import Babel
 from typing import Union, Mapping
+import logging
 
 
 class Config(object):
@@ -34,7 +35,6 @@ users = {
 }
 
 
-@app.before_request
 def get_user():
     """Return a dict of user info or None."""
     param = request.query_string.decode()
@@ -42,16 +42,19 @@ def get_user():
         return None
     user_id = int(param.split('=')[-1])
     user = users.get(user_id)
-    if user:
-        g.user = user
     return user
 
+@app.before_request
+def before_request():
+    """Set user."""
+    user = get_user()
+    g.user = user
 
 @app.route('/')
 def index():
     """Render hello world in the browser."""
-    return render_template("4-index.html")
+    return render_template("5-index.html")
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

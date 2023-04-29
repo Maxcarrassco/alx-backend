@@ -1,0 +1,42 @@
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:13:41] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:13] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:14] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:14] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:15] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:15] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:15] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:16] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:16] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:16] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:16] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:17] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:17] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:17] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:15:17] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:16:51] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:16:52] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Beyonce', 'locale': 'en', 'timezone': 'US/Central'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:16:52] "GET /?login_as=2 HTTP/1.1" 200 -
+INFO:root:{'name': 'Balou', 'locale': 'fr', 'timezone': 'Europe/Paris'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 19:16:57] "GET /?login_as=1 HTTP/1.1" 200 -
+INFO:root:{'name': 'Balou', 'locale': 'fr', 'timezone': 'Europe/Paris'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 23:48:46] "GET /?login_as=1 HTTP/1.1" 200 -
+INFO:root:{'name': 'Balou', 'locale': 'fr', 'timezone': 'Europe/Paris'}
+INFO:werkzeug:127.0.0.1 - - [28/Apr/2023 23:49:39] "GET /?login_as=1 HTTP/1.1" 200 -
