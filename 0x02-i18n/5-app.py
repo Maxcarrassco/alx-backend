@@ -21,9 +21,9 @@ babel = Babel(app)
 @babel.localeselector
 def get_locale() -> str:
     """Return the best match of locale to use."""
-    locale = request.query_string.decode()
+    locale = request.args.get('locale')
     if locale:
-        return locale.split('=')[-1]
+        return locale
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
@@ -37,10 +37,10 @@ users = {
 
 def get_user():
     """Return a dict of user info or None."""
-    param = request.query_string.decode()
+    param = request.args.get('login_as')
     if not param:
         return None
-    user_id = int(param.split('=')[-1])
+    user_id = int(param)
     user = users.get(user_id)
     return user
 
@@ -59,4 +59,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
